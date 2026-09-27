@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>サポート | lista</title>
+    <link rel="icon" href="./icon.png" />
+    <style>
+      :root {
+        --bg: #fff8ef;
+        --surface: #ffffff;
+        --text: #3b2a1e;
+        --dim: #7a6a5c;
+        --accent: #3f8f55;
+        --border: #eadfce;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1f1a16;
+          --surface: #2a241f;
+          --text: #f3ebe1;
+          --dim: #b9ab9c;
+          --accent: #7cc893;
+          --border: #3d352e;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+        line-height: 1.8;
+      }
+      main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+      header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+      header img { width: 56px; height: 56px; border-radius: 13px; }
+      h1 { font-size: 24px; margin: 0; }
+      h2 { font-size: 18px; margin: 28px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+      h3 { font-size: 15px; margin: 18px 0 2px; }
+      p, li { font-size: 15px; }
+      a { color: var(--accent); }
+      .muted { color: var(--dim); font-size: 13px; }
+      .lang { margin: 16px 0 0; font-size: 14px; }
+      section.lang-block { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 8px 20px 20px; margin-top: 24px; }
+      .contact { font-size: 16px; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./icon.png" alt="" />
+        <h1>lista サポート</h1>
+      </header>
+      <p class="lang"><a href="#en">English</a></p>
+
+      <section class="lang-block" lang="ja">
+        <p>「lista」は、思いつくままに入れた買い物リストを売り場ごとに整理し、店内の回る順番まで案内する買い物アプリです。</p>
+
+        <h2>お問い合わせ</h2>
+        <p>ご質問・不具合のご報告・ご要望は、下記までメールでお送りください。</p>
+        <p class="contact"><a href="mailto:lista.kaimonoroute@gmail.com">lista.kaimonoroute@gmail.com</a></p>
+        <p class="muted">不具合のご報告の際は、お使いの機種・iOSのバージョン・発生した操作を添えていただけると調査がスムーズです。</p>
+
+        <h2>よくあるご質問</h2>
+        <h3>データはどこに保存されますか？</h3>
+        <p>リストや店舗マップなどは、お使いの端末内に保存されます。アカウント登録は不要です。</p>
+
+        <h3>機種変更のときにデータを引き継げますか？</h3>
+        <p>「設定」→「バックアップ」から書き出したファイルを、新しい端末で読み込むと引き継げます。共有中のリスト・マップは、招待コードで参加し直すこともできます。</p>
+
+        <h3>家族とリストを共有するには？</h3>
+        <p>リストの編集画面から共有を始めると招待コード（QRコード）が表示されます。相手のアプリでそのコードを入力、または読み取ると参加できます。</p>
+
+        <h3>店内マップはどうやって用意しますか？</h3>
+        <p>マップ画面でご自身で作成するか、見取り図の写真から自動作成できます。家族や友人が作ったマップを共有してもらうこともできます。</p>
+
+        <h3>Siri やウィジェットから追加できますか？</h3>
+        <p>「Hey Siri、listaに追加」と話しかけると、品目を聞かれて追加できます。ホーム画面のウィジェットでもリストを確認できます。</p>
+
+        <h2>プライバシー</h2>
+        <p><a href="./privacy.html">プライバシーポリシー</a></p>
+      </section>
+
+      <section class="lang-block" id="en" lang="en">
+        <h2 style="margin-top: 16px">lista Support</h2>
+        <p>“lista” is a shopping app that sorts the items you jot down by aisle and guides you through the store in the best order.</p>
+
+        <h2>Contact</h2>
+        <p>For questions, bug reports or feature requests, please email us.</p>
+        <p class="contact"><a href="mailto:lista.kaimonoroute@gmail.com">lista.kaimonoroute@gmail.com</a></p>
+        <p class="muted">When reporting a bug, please include your device model, iOS version and what you were doing when it happened.</p>
+
+        <h2>FAQ</h2>
+        <h3>Where is my data stored?</h3>
+        <p>Your lists and store maps are stored on your device. No account is needed.</p>
+
+        <h3>Can I move my data to a new phone?</h3>
+        <p>Export a backup from Settings → Backup, then import the file on your new device. You can also rejoin shared lists and maps with their invite codes.</p>
+
+        <h3>How do I share a list with my family?</h3>
+        <p>Start sharing from the list’s edit screen to get an invite code (and QR code). The other person enters or scans the code in their app to join.</p>
+
+        <h3>How do I get a store map?</h3>
+        <p>Create one yourself on the Map screen, or generate one automatically from a photo of the store’s floor plan. Family or friends can also share their maps with you.</p>
+
+        <h3>Can I add items with Siri or a widget?</h3>
+        <p>You can run “Add to shopping list” from the Shortcuts app, and Siri asks you for the item. (Siri voice phrases are currently available in Japanese only.) The home screen widget also shows your list at a glance.</p>
+
+        <h2>Privacy</h2>
+        <p><a href="./privacy.html">Privacy Policy</a></p>
+      </section>
+    </main>
+  </body>
+</html>
